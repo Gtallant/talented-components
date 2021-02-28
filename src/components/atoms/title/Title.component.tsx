@@ -2,23 +2,23 @@ import React from 'react';
 import * as Styled from './Title.style';
 
 const Title = ({
-  text, style, markup, className,
+  text, level, markupLevel, className,
 }: Props) => {
-  const Comp = Styled[markup || style];
+  const Comp = Styled[markupLevel || level];
   return (
-    <Comp className={`${className} ${style}`}>{text}</Comp>
+    <Comp className={`${className} ${level}`}>{text}</Comp>
   );
 };
 
 interface Props {
   text: string,
-  style: 'HEADING_1' | 'HEADING_2' | 'HEADING_3' | 'HEADING_4' | 'HEADING_5' | 'HEADING_6',
-  markup?: 'HEADING_1' | 'HEADING_2' | 'HEADING_3' | 'HEADING_4' | 'HEADING_5' | 'HEADING_6',
+  level: 'HEADING_1' | 'HEADING_2' | 'HEADING_3' | 'HEADING_4' | 'HEADING_5' | 'HEADING_6',
+  markupLevel?: 'HEADING_1' | 'HEADING_2' | 'HEADING_3' | 'HEADING_4' | 'HEADING_5' | 'HEADING_6',
   className?: string,
 }
 
 Title.defaultProps = {
-  markup: undefined,
+  markupLevel: undefined,
   className: '',
 };
 
