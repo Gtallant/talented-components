@@ -14,5 +14,5 @@ const Template: Story<TitleProps> = (args) => <Title {...args} />;
 export const Default = Template.bind({});
 Default.args = {
   text: 'Lorem Ipsum',
-  style: 'HEADING_1',
+  level: 'HEADING_1',
 };
