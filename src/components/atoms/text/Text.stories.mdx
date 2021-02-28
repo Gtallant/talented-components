@@ -1,0 +1,15 @@
+import { Meta, Story, Canvas } from '@storybook/addon-docs/blocks';
+import * as stories from './Text.stories';
+import Text from '.';
+
+<Meta title="Atoms/Text" component={Text} />
+
+export const Template = (props) => <Text>{props.text}</Text>;
+
+# Text
+
+A component for displaying basic text elements such as `<p>` `<b>` `<i>` etc.
+
+<Canvas>
+  <Story story={stories.Default} />
+</Canvas>
