@@ -1,6 +1,6 @@
 # Talented Components
 
-An extensible, fully customizeable React component library built in typescript.
+An extensible, fully customizeable React component library built in typescript. This is currently a work in progress.
 
 ## Motivation
 
