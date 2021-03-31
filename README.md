@@ -8,4 +8,4 @@ Having worked on a number of large web projects I noticed something - even thoug
 
 ### License
 
-Talented Componentd is released under the MIT License.
+Talented Components is released under the MIT [License](./LICENSE).
