@@ -23,6 +23,8 @@
     ],
     "ignorePatterns": ["node_modules/*"],
     "rules": {
-      "linebreak-style": 0
+      "linebreak-style": 0,
+      "import/no-cycle": 0,
+      "react/jsx-props-no-spreading": 0
     }
 }
