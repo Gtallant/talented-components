@@ -4,7 +4,7 @@ export default styled.div`
   background: #fff;
   padding: 16px;
   border-radius: 4px;
-  transition: all .2s;
+  transition: all 2s;
 
   &.--elevation-0 {
     -webkit-box-shadow: none; 
