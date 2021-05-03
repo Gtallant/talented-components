@@ -1,6 +1,6 @@
 # Talented Components
 
-[![Check Code Quality](https://github.com/Gtallant/talented-components/actions/workflows/codeQuality.yml/badge.svg?branch=master)](https://github.com/Gtallant/talented-components/actions/workflows/codeQuality.yml)
+[![Check Code Quality](https://github.com/Gtallant/talented-components/actions/workflows/tests.yml/badge.svg?branch=master)](https://github.com/Gtallant/talented-components/actions/workflows/codeQuality.yml)
 
 An extensible, fully customizeable React component library built in typescript. This is currently a work in progress.
 
